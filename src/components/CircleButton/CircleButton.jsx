@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import './circleButton.css'; // Add your CSS file for styling
+import './circlebutton.css'; // Add your CSS file for styling
 
 const CircleButton = ({ onClick,icon }) => {
   return (
