@@ -1,0 +1,32 @@
+.about {
+    padding: 5%;
+    color: #d9e2ec; 
+    background-color: transparent; 
+}
+
+.heading {
+    color: #f8e71c; 
+    text-align: center;
+    margin-bottom: 3%;
+    font-size: 2rem;
+    text-transform: uppercase; 
+    font-family: cursive;
+}
+
+.info {
+    font-size: 18px;
+    line-height: 1.6; 
+    color: #d9e2ec; 
+    background-color: transparent; 
+}
+.profile-image {
+    border-radius: 50%;
+    object-fit: cover;
+  }
+
+@media (max-width:700px) {
+    .row{
+        /* width: 140vw; */
+        text-align: justify;
+      }
+}

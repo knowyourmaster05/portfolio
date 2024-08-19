@@ -1,0 +1,73 @@
+.contact {
+    text-align: center;
+    background-color: transparent !important; 
+    color: #f0f4f8; 
+    padding: 5%;
+    
+}
+
+.icon-button {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: transparent; 
+    color: #f8e71c; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+    font-size: 1.2rem;
+    border: 2px solid #f8e71c; 
+}
+
+.icon-button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px 5px #f8e71c; 
+}
+
+.icon-button-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3%;
+    gap: 20px; 
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 90px auto;
+}
+
+.container-e {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    opacity: 0;
+    animation: movedown 1s linear forwards;
+    background-color: transparent;
+    color: #f0f4f8; 
+    border-radius: 10px;
+    border: 1px solid #f8e71c; 
+}
+
+.text-box {
+    padding: 20px 20px;
+    background: rgba(0, 0, 0, 0.7); 
+    position: relative;
+    border-radius: 6px;
+    font-size: 15px;
+    color: #f0f4f8; 
+}
+
+.text-box h2 {
+    font-weight: 600;
+    color: #f8e71c; /* Yellow color to match the theme */
+}
+
+.text-box small {
+    display: inline-block;
+    margin-bottom: 15px;
+    color: #d9e2ec; /* Softer color for the small text */
+}

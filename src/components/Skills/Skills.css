@@ -1,0 +1,26 @@
+
+.skills {
+    background: linear-gradient(45deg, #0d253f, #0b1c31) !important; 
+    padding: 5%; 
+    color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgb(23, 38, 63); 
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.skill-container {
+    background-color: #000000; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(239, 235, 11, 0.742); 
+    margin-top: 20px; 
+}
+
+.skill-item {
+    background-color: #0b1c31; 
+    color: #fff; 
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 10px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+}
