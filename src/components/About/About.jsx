@@ -1,5 +1,5 @@
 import React from 'react';
-import './About.css';
+import './about.css';
 import { Row, Col } from "react-bootstrap";
 import { aboutdata } from '../../data/data';
 import { Zoom } from "react-awesome-reveal";
